@@ -1,0 +1,80 @@
+ body {
+
+  margin: 0;
+
+  padding: 0;
+
+  height: 675px;
+background:url('https://raw.githack.com/karpgr/tmnt/c23f3656686683aa903590e3c8770d09b6dc06a9/9d4627b1b85887875d16888d88a70c84.jpg');
+}
+#container {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 400%;
+
+  height: 100vh;
+
+  display: flex;
+
+    }
+	#container .section {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 100px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+#container .section .content {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+#container .section .content .text {
+
+  margin-right: 50px;
+
+  max-width: 400px;
+
+  color: #18ad27;
+
+}
+#container .section .content .text h1{
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: 3em;
+
+}
+#container .section .content .text p{
+
+  font-size: 1.1em;
+
+}
+#container .section .content img {
+
+  min-width: 400px;
+
+}
